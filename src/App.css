@@ -1,0 +1,139 @@
+
+
+```css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6fb;
+  color: #20243a;
+}
+
+header {
+  background: #151b35;
+  color: white;
+  padding: 22px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  font-size: 28px;
+  color: #65a5ff;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #65a5ff;
+}
+
+.hero {
+  text-align: center;
+  padding: 90px 20px;
+  background: linear-gradient(135deg, #202b55, #386bd8);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 19px;
+}
+
+main {
+  padding: 55px 8%;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+
+.courses {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.course-card {
+  background: white;
+  width: 280px;
+  padding: 30px 22px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px #00000012;
+}
+
+.course-card h3 {
+  color: #3268d5;
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+
+.course-card p {
+  margin: 12px 0;
+  line-height: 1.5;
+}
+
+button {
+  background: #3268d5;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #204ba8;
+}
+
+footer {
+  background: #151b35;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 27px;
+  }
+
+  .course-card {
+    width: 100%;
+  }
+}
+```
